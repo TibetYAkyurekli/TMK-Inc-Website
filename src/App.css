@@ -1,55 +1,116 @@
-:root {
-  --forest-green: #146950;
-  --white: #ffffff;
-  --black: #000000;
-}
+ @import url("https://use.typekit.net/iqq4csb.css");
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
+ :root {
+   --forest-green: #146950;
+   --white: #ffffff;
+   --black: #000000;
+ }
 
-.topNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: var(--forest-green);
+ .btn {
+   -webkit-border-radius: 4;
+   -moz-border-radius: 4;
+   border-radius: 4px;
+   font-family: Arial;
+   color: var(--forest-green);
+   font-size: 0.9rem;
+   background: var(--white);
+   margin: 0.5rem;
+   padding: 5px 20px;
+   text-decoration: none;
+   transition: transform 0.3s ease-in-out;
+ }
 
-}
+ .btn:hover {
+   transform: scale(0.95);
+   cursor: pointer;
+   text-decoration: none;
+   color: var(--forest-green)
+ }
 
-.topNavText {
-  color: var(--white);
-}
 
-.topNavBtn {
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
-  font-family: Arial;
-  color: var(--forest-green);
-  font-size: 0.9rem;
-  background: var(--white);
-  margin: 0.5rem;
-  padding: 0.2rem, 0.4rem;
-  text-decoration: none;
-  transition: transform 0.3s ease-in-out;
-}
+ /* Top Navigation Styling */
+ .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+ }
 
-.topNavBtn:hover {
-  transform: scale(0.95);
-  cursor: pointer;
-  text-decoration: none;
-  color: var(--forest-green)
-}
+ .topNav {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: var(--forest-green);
+ }
 
-.navbar {
-  background-color: var(--white);
-  padding: 2rem;
-  margin-top: 3.5rem;
-}
+ .topNavText {
+   color: var(--white);
+ }
 
-.navTitle {
-  color: var(--black);
-}
+
+ /* Navigation Bar Styling */
+ .navbar {
+   background-color: var(--white);
+   padding: 1rem;
+   margin-top: 3rem;
+ }
+
+ .navCollapse {
+   justify-content: flex-end !important;
+   align-items: center;
+ }
+
+ .navTitle {
+   color: var(--forest-green);
+   font-family: "league-gothic", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 2rem;
+ }
+
+ .navText {
+   color: var(--forest-green);
+   font-size: 1.2rem;
+ }
+
+ .navLogo {
+   max-width: 75%;
+
+ }
+
+
+ /* Hero Banner Styling */
+ .hero-banner {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+     url(./images/laurence-ziegler-mjapqa64gTU-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding: 4rem;
+   text-align: left;
+   border-bottom-left-radius: 10% 0%;
+   border-bottom-right-radius: 100% 10%;
+ }
+
+ .hero-title {
+   color: var(--white);
+   font-size: 3rem;
+   font-weight: 700;
+   margin-top: 2rem;
+ }
+
+ .heroBodyContainer {
+   margin: 2rem 0;
+ }
+
+ .hero-body {
+   color: var(--white);
+   font-size: 2rem;
+   padding-left: 0.5rem;
+   border-left: 4px solid var(--forest-green);
+ }

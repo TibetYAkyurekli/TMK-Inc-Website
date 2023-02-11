@@ -4,13 +4,9 @@ import "../App.css";
 function TopNav() {
   return (
     <div className="sticky">
-      <Nav
-        className="topNav"
-        activeKey="/home"
-        onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-      >
+      <Nav className="topNav" activeKey="/home">
         <Nav.Item>
-          <Nav.Link className="topNavBtn" href="/home">
+          <Nav.Link className="btn" href="#contact-us">
             Book a Free Quote
           </Nav.Link>
         </Nav.Item>
