@@ -1,9 +1,13 @@
  @import url("https://use.typekit.net/iqq4csb.css");
 
  :root {
-   --forest-green: #146950;
+   --forest-green: #146b51;
    --white: #ffffff;
    --black: #000000;
+ }
+
+ .navbar-toggler {
+   border-color: var(--forest-green) !important;
  }
 
  .btn {
@@ -45,6 +49,10 @@
 
  .topNavText {
    color: var(--white);
+ }
+
+ .basic-navbar-nav {
+   border-color: #146950 !important;
  }
 
 
