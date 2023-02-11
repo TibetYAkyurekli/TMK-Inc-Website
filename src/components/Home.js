@@ -1,14 +1,17 @@
+import TopNav from "../components/TopNav";
 import Header from "../components/Nav";
 import HeroCarousel from "../components/Carousel";
 
 function Home() {
   return (
     <>
+      <TopNav />
       <Header />
+      <HeroCarousel />
+
       <div>
-        <HeroCarousel />
+        <h1>Home</h1>
       </div>
-      <h1>Home</h1>
     </>
   );
 }
