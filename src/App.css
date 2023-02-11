@@ -114,3 +114,24 @@
    padding-left: 0.5rem;
    border-left: 4px solid var(--forest-green);
  }
+
+
+ /* Footer Styling */
+ .footer {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   background-color: var(--forest-green);
+   margin-top: 1rem;
+   padding: 1rem;
+ }
+
+ .footerTag {
+   text-decoration: none;
+   color: var(--white);
+   font-size: 1rem;
+ }
+
+ .footerText {
+   margin: 0;
+ }
