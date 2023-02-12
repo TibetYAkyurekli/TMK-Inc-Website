@@ -62,7 +62,6 @@
 
 
  /* Navigation Bar Styling */
-
  .navbar {
    background-color: var(--white);
    padding: 1rem;
@@ -138,10 +137,6 @@
    padding-left: 0.5rem;
    border-left: 2px solid var(--forest-green);
  }
-
- /* .homeBodyText {
-   padding-left: 0.5rem;
- } */
 
  .homeBodyBtnContainer {
    display: flex;
