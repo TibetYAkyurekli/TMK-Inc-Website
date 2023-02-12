@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import TopNav from "../components/TopNav";
 import Header from "../components/Nav";
 import HeroBanner from "../components/Hero";
@@ -20,9 +22,9 @@ function Home() {
           knowledge, skill, and equipment to handle any tree related projects.
         </p>
         <div className="homeBodyBtnContainer">
-          <button className="homeBodyBtn" href="#services">
+          <Link className="link homeBodyBtn homeBodyBtnText" to="/services">
             See All Services Available
-          </button>
+          </Link>
         </div>
       </div>
       <Footer />

@@ -1,4 +1,5 @@
-import Button from "react-bootstrap/Button";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function HeroBanner() {
   return (
@@ -9,7 +10,13 @@ function HeroBanner() {
         <p className="hero-body">Experienced</p>
         <p className="hero-body">Comprehensive</p>
       </div>
-      <Button className="btn"> Contact Us Now</Button>
+      <div className="homeBodyBtnContainer">
+        <button className="btn">
+          <Link className="link" to="/contact-us">
+            Contact Us Now
+          </Link>
+        </button>
+      </div>
     </div>
   );
 }
