@@ -1,9 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import Home from "./components/Home";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
+  );
 }
-
 export default App;
