@@ -179,3 +179,49 @@
  .footerText {
    margin: 0;
  }
+
+
+ /* Form Styling */
+ .formContainer {
+   display: flex;
+   flex-direction: column;
+   margin: 2rem;
+ }
+
+ .form {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 1.1rem;
+ }
+
+ .formBtn {
+   -webkit-border-radius: 4;
+   -moz-border-radius: 4;
+   border-radius: 4px;
+   background-color: var(--forest-green);
+   font-size: 0.9rem;
+   padding: 5px 20px;
+   text-decoration: none;
+   color: var(--white);
+   text-decoration: none;
+   margin: 0;
+   margin-top: 2rem;
+   width: 100%;
+ }
+
+ .formBtnDisabled {
+   -webkit-border-radius: 4;
+   -moz-border-radius: 4;
+   border-radius: 4px;
+   border-color: gray !important;
+   background-color: gray !important;
+   font-size: 0.9rem;
+   padding: 5px 20px;
+   text-decoration: none;
+   color: var(--white);
+   text-decoration: none;
+   margin: 0;
+   margin-top: 2rem;
+   width: 100%;
+ }
