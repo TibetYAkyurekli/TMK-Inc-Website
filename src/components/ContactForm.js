@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import React, { useState } from "react";
-import Container from "react-bootstrap/Container";
+
 import "../App.css";
 
 function ContactForm() {
@@ -41,7 +41,6 @@ function ContactForm() {
   //#endregion
 
   return (
-    // <Container fluid="sm" className="fullHeight">
     <Form
       action="https://formspree.io/f/mlekjogq"
       method="POST"
@@ -117,7 +116,6 @@ function ContactForm() {
         Send
       </Button>
     </Form>
-    // </Container>
   );
 }
 
