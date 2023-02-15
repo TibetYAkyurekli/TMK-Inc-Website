@@ -98,7 +98,7 @@
  /* Hero Banner Styling */
  .hero-banner {
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-     url(./images/laurence-ziegler-mjapqa64gTU-unsplash.jpg);
+     url(https://images.unsplash.com/photo-1644308852777-c129f2182388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -223,4 +223,12 @@
    margin-top: 2rem;
    width: 100%;
    max-width: 100% !important;
+ }
+
+
+ .serviceCardContainer {
+   display: flex;
+
+
+
  }
