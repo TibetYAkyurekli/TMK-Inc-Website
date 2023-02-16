@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TopNav from "../components/TopNav";
-import Header from "../components/Nav";
-import HeroBanner from "../components/Hero";
-import Footer from "../components/Footer";
+import TopNav from "../../components/TopNav";
+import Header from "../../components/Nav";
+import HeroBanner from "../../components/Hero";
+import Footer from "../../components/Footer";
+import "../Home/home.css";
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
       <TopNav />
       <Header />
       <HeroBanner />
-      <div className="homeBodyContainer" style={{ height: "100vh" }}>
+      <div className="homeBodyContainer">
         <h2 className="homeBodyTitle">Who Are We?</h2>
         <p className="homeBodyText">
           We are a locally owned and operated tree service company providing

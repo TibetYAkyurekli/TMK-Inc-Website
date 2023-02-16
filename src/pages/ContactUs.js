@@ -9,7 +9,7 @@ function ContactUs() {
     <>
       <TopNav />
       <Nav />
-      <Container fluid="sm" className="fullHeight">
+      <Container fluid="sm">
         <h1 className="contactTitle">Get in Contact</h1>
         <ContactForm />
       </Container>
