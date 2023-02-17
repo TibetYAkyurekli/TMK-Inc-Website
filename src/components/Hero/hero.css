@@ -1,5 +1,11 @@
 /* Hero Banner Styling */
-.hero-banner {
+:root {
+    --forest-green: #146b51;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.heroBanner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
         url(https://images.unsplash.com/photo-1644308852777-c129f2182388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
     background-size: cover;
@@ -32,7 +38,7 @@
     margin: 2rem 0;
 }
 
-.hero-body {
+.heroBody {
     color: var(--white);
     font-size: 2rem;
     padding-left: 0.5rem;
@@ -40,6 +46,13 @@
     gap: 1rem;
 }
 
+.btn>.link {
+    color: var(--forest-green);
+    font-weight: 20rem;
+}
+
+
+/* Media Queries */
 @media only screen and (min-width: 48rem) {
     .heroTitle {
         font-size: 3.5rem;
