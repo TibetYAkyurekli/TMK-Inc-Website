@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./hero.css";
 
 function HeroBanner() {
   return (
     <div className="hero-banner">
-      <h1 className="hero-title">TMK Tree and Hedge Inc.</h1>
+      <h1 className="heroTitle">TMK Tree and Hedge Inc.</h1>
       <div className="heroBodyContainer">
         <h2 className="hero-body">Reliable</h2>
         <h2 className="hero-body">Experienced</h2>

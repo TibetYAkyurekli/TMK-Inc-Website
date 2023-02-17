@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TopNav from "../../components/TopNav";
 import Header from "../../components/Nav";
-import HeroBanner from "../../components/Hero";
+import HeroBanner from "../../components/Hero/Hero";
 import Footer from "../../components/Footer";
 import "../Home/home.css";
 

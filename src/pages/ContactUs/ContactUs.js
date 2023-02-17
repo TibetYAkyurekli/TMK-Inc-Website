@@ -12,7 +12,7 @@ function ContactUs() {
       <TopNav />
       <Nav />
       <Container fluid="sm">
-        <h1>Get in Contact</h1>
+        <h1 className="contactUsTitle">Get in Contact</h1>
         <ContactForm />
       </Container>
       <Footer />

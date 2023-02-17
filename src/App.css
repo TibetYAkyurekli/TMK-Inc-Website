@@ -92,41 +92,7 @@
  }
 
 
- /* Hero Banner Styling */
- .hero-banner {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-     url(https://images.unsplash.com/photo-1644308852777-c129f2182388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   height: 100%;
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   padding: 4rem;
-   text-align: left;
-   border-bottom-left-radius: 10% 0%;
-   border-bottom-right-radius: 100% 10%;
- }
 
- .hero-title {
-   color: var(--white);
-   font-size: 3rem;
-   font-weight: 700;
-   margin-top: 2rem;
- }
-
- .heroBodyContainer {
-   margin: 2rem 0;
- }
-
- .hero-body {
-   color: var(--white);
-   font-size: 2rem;
-   padding-left: 0.5rem;
-   border-left: 4px solid var(--forest-green);
- }
 
 
 
