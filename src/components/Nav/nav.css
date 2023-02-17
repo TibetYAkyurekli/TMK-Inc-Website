@@ -1,0 +1,39 @@
+/* Navigation Bar Styling */
+:root {
+    --forest-green: #146b51;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.navbar {
+    background-color: var(--white);
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.navCollapse {
+    justify-content: flex-end !important;
+    align-items: center;
+}
+
+.navTitle {
+    color: var(--forest-green);
+    font-family: "league-gothic", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.navText {
+    color: var(--forest-green);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.navText:hover {
+    color: grey;
+}
+
+.navLogo {
+    max-width: 75%;
+}

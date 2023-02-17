@@ -1,5 +1,5 @@
 import TopNav from "../../components/TopNav";
-import Nav from "../../components/Nav";
+import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
 import "./services.css";

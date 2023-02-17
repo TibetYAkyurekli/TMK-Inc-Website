@@ -1,5 +1,5 @@
 import TopNav from "../../components/TopNav";
-import Nav from "../../components/Nav";
+import Nav from "../../components/Nav/Nav";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import Footer from "../../components/Footer";
 import Container from "react-bootstrap/Container";
