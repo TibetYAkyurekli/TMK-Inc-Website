@@ -75,15 +75,6 @@ function ContactForm() {
           onChange={handleChange}
         />
       </Form.Group>
-      <Form.Group controlId="formMessage">
-        <Form.Label>Message:</Form.Label>
-        <Form.Control
-          as="textarea"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-        />
-      </Form.Group>
       <Form.Group controlId="formServices">
         <Form.Label>Service Required:</Form.Label>
         <Form.Control
@@ -102,6 +93,15 @@ function ContactForm() {
             24/7 Emergency Tree Service
           </option>
         </Form.Control>
+      </Form.Group>
+      <Form.Group controlId="formMessage">
+        <Form.Label>Message:</Form.Label>
+        <Form.Control
+          as="textarea"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+        />
         <Form.Text>
           We'll <b>never</b> share your information with anyone else.
         </Form.Text>

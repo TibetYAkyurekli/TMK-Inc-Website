@@ -10,7 +10,6 @@
    text-decoration: none;
  }
 
-
  .navbar-toggler {
    border-color: var(--forest-green) !important;
  }
@@ -60,14 +59,6 @@
    border-color: #146950 !important;
  }
 
-
-
-
-
-
-
-
-
  /* Footer Styling */
  .footer {
    display: flex;
@@ -85,12 +76,14 @@
  }
 
  .footerText {
+   color: var(--white);
    margin: 0;
  }
 
-
-
-
+ .footerTag:hover {
+   text-decoration: none;
+   color: var(--white);
+ }
 
 
  /* Tablet Media Query */

@@ -24,6 +24,10 @@
     font-size: 2rem;
 }
 
+.navTitle:hover {
+    color: grey;
+}
+
 .navText {
     color: var(--forest-green);
     font-size: 1.2rem;
