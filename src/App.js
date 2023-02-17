@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
-import ContactUs from "./pages/ContactUs";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 function App() {
   return (

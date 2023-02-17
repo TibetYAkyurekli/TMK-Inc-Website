@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import React, { useState } from "react";
 
-import "../App.css";
+import "./contactForm.css";
 
 function ContactForm() {
   const [disabled, setDisabled] = useState(true);

@@ -1,6 +1,4 @@
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-
 import Image from "react-bootstrap/Image";
 
 import "./serviceCard.css";
