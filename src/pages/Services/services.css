@@ -1,0 +1,5 @@
+.serviceCardContainer {
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+}

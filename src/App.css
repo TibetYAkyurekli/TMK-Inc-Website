@@ -10,9 +10,6 @@
    text-decoration: none;
  }
 
- .fullHeight {
-   height: 100vh;
- }
 
  .navbar-toggler {
    border-color: var(--forest-green) !important;
@@ -98,11 +95,11 @@
  /* Hero Banner Styling */
  .hero-banner {
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-     url(./images/laurence-ziegler-mjapqa64gTU-unsplash.jpg);
+     url(https://images.unsplash.com/photo-1644308852777-c129f2182388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   height: 100vh;
+   height: 100%;
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -131,36 +128,6 @@
    border-left: 4px solid var(--forest-green);
  }
 
- .homeBodyContainer {
-   margin: 2rem;
- }
-
- .homeBodyTitle {
-   font-size: 2rem;
-   padding-left: 0.5rem;
-   border-left: 2px solid var(--forest-green);
- }
-
- .homeBodyBtnContainer {
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
- }
-
- .homeBodyBtn {
-   -webkit-border-radius: 4;
-   -moz-border-radius: 4;
-   border-radius: 4px;
-   background-color: var(--forest-green);
-   font-size: 0.9rem;
-   padding: 5px 20px;
-   text-decoration: none;
- }
-
- .homeBodyBtnText {
-   color: var(--white);
-   text-decoration: none;
- }
 
 
  /* Footer Styling */
@@ -183,44 +150,13 @@
    margin: 0;
  }
 
- /* Form Styling */
 
- .form {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   gap: 1.1rem;
- }
 
- .formBtn {
-   -webkit-border-radius: 4;
-   -moz-border-radius: 4;
-   border-radius: 4px;
-   background-color: var(--forest-green);
-   font-size: 0.9rem;
-   padding: 5px 20px;
-   text-decoration: none;
-   color: var(--white);
-   text-decoration: none;
-   margin: 0;
-   margin-top: 2rem;
-   max-width: 100% !important;
 
- }
 
- .formBtnDisabled {
-   -webkit-border-radius: 4;
-   -moz-border-radius: 4;
-   border-radius: 4px;
-   border-color: gray !important;
-   background-color: gray !important;
-   font-size: 0.9rem;
-   padding: 5px 20px;
-   text-decoration: none;
-   color: var(--white);
-   text-decoration: none;
-   margin: 0;
-   margin-top: 2rem;
-   width: 100%;
-   max-width: 100% !important;
- }
+
+ /* Tablet Media Query */
+ @media only screen and (min-width: 37.5rem) {}
+
+ /* Desktop Media Query */
+ @media only screen and (min-width: 62rem) {}
