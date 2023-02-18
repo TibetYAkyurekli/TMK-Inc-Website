@@ -9,7 +9,6 @@ function ServiceCard({ image, name, body, id }) {
     <div className="cardContainer" key={id}>
       <Image className="serviceImage" fluid="true" src={image} />
       <div className="serviceBodyContainer">
-        <h3 className="serviceTitle">{name}</h3>
         <div
           style={{
             display: "flex",
@@ -17,9 +16,12 @@ function ServiceCard({ image, name, body, id }) {
             justifyContent: "space-between",
           }}
         >
+          <h3 className="serviceTitle">{name}</h3>
           <p className="serviceText">{body}</p>
-          <Button className="serviceButton">Get a Quote</Button>
         </div>
+        <Button className="serviceButton" href="/contact-us">
+          Get a Quote
+        </Button>
       </div>
     </div>
   );

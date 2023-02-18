@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TopNav from "../../components/TopNav";
+import TopNav from "../../components/TopNav/TopNav";
 import Header from "../../components/Nav/Nav";
 import HeroBanner from "../../components/Hero/Hero";
 import Footer from "../../components/Footer";

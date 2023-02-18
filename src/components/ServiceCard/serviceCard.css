@@ -12,7 +12,7 @@
 .serviceBodyContainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin: 2rem 0;
 
 }
@@ -28,6 +28,12 @@
     color: var(--white);
     margin: 0;
     width: 100%;
+}
+
+.serviceButton:hover {
+    background-color: var(--white);
+    color: var(--forest-green);
+    border: 1px solid var(--forest-green);
 }
 
 @media screen and (min-width: 48rem) {

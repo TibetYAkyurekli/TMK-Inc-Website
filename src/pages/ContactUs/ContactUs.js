@@ -1,4 +1,4 @@
-import TopNav from "../../components/TopNav";
+import TopNav from "../../components/TopNav/TopNav";
 import Nav from "../../components/Nav/Nav";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import Footer from "../../components/Footer";

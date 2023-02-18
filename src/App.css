@@ -29,10 +29,14 @@
  }
 
  .btn:hover {
-   transform: scale(0.95);
+   /* transform: scale(0.95); */
    cursor: pointer;
    text-decoration: none;
-   background: var(--white);
+   background: var(--forest-green);
+ }
+
+ .heroBanner>.btn:hover>.link {
+   color: var(--white);
  }
 
 
