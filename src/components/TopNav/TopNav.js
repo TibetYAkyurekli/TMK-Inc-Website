@@ -7,7 +7,7 @@ function TopNav() {
     <div className="sticky">
       <Nav className="topNav" activeKey="/home">
         <Nav.Item>
-          <Nav.Link className="topNavBtn" href="#contact-us">
+          <Nav.Link className="topNavBtn" href="/contact-us">
             Book a Free Quote
           </Nav.Link>
         </Nav.Item>

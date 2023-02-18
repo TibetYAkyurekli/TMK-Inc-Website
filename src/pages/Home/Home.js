@@ -23,7 +23,7 @@ function Home() {
           knowledge, skill, and equipment to handle any tree related projects.
         </p>
         <div className="homeBodyBtnContainer">
-          <Link className="link homeBodyBtn homeBodyBtnText" to="/services">
+          <Link className="homeBodyBtn homeBodyBtnText" to="/services">
             See All Services Available
           </Link>
         </div>
