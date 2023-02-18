@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./hero.css";
-import "../../App.css";
 
 function HeroBanner() {
   return (
@@ -13,8 +12,8 @@ function HeroBanner() {
         <h2 className="heroBody">Comprehensive</h2>
       </div>
       <div className="homeBodyBtnContainer">
-        <button className="btn">
-          <Link className="link" to="/contact-us">
+        <button className="heroBtn">
+          <Link className="heroLink" to="/contact-us">
             Contact Us Now
           </Link>
         </button>
