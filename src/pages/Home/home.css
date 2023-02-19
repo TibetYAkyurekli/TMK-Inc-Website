@@ -24,6 +24,7 @@
      -webkit-border-radius: 4;
      -moz-border-radius: 4;
      border-radius: 4px;
+     border: 1px solid var(--forest-green);
      background-color: var(--forest-green);
      font-size: 0.9rem;
      padding: 5px 20px;
@@ -32,7 +33,7 @@
 
  .homeBodyBtn:hover {
      background-color: var(--white);
-     border: 1px solid var(--forest-green);
+     /* border: 1px solid var(--forest-green); */
      text-decoration: none;
  }
 

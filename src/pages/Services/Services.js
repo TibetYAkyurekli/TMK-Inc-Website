@@ -50,18 +50,20 @@ function Services() {
       <TopNav />
       <Nav />
       <h1 className="container">Services</h1>
-      {services.map((service) => {
-        return (
-          <div key={service.id} className="serviceCardContainer container">
-            <ServiceCard
-              image={service.image}
-              name={service.name}
-              body={service.body}
-              id={service.id}
-            />
-          </div>
-        );
-      })}
+      <div className="serviceCardContainer">
+        {services.map((service) => {
+          return (
+            <div key={service.id} className="serviceCard container">
+              <ServiceCard
+                image={service.image}
+                name={service.name}
+                body={service.body}
+                id={service.id}
+              />
+            </div>
+          );
+        })}
+      </div>
       <Footer />
     </>
   );
