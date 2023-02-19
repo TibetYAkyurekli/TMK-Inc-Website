@@ -1,5 +1,5 @@
-import TopNav from "../../components/TopNav";
-import Nav from "../../components/Nav";
+import TopNav from "../../components/TopNav/TopNav";
+import Nav from "../../components/Nav/Nav";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import Footer from "../../components/Footer";
 import Container from "react-bootstrap/Container";
@@ -11,10 +11,11 @@ function ContactUs() {
     <>
       <TopNav />
       <Nav />
-      <Container fluid="sm">
-        <h1>Get in Contact</h1>
-        <ContactForm />
-      </Container>
+      <div className="formContainer">
+        <Container className="fullScreen" fluid="sm">
+          <ContactForm />
+        </Container>
+      </div>
       <Footer />
     </>
   );

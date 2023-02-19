@@ -10,7 +10,6 @@
    text-decoration: none;
  }
 
-
  .navbar-toggler {
    border-color: var(--forest-green) !important;
  }
@@ -30,104 +29,15 @@
  }
 
  .btn:hover {
-   transform: scale(0.95);
+   /* transform: scale(0.95); */
    cursor: pointer;
    text-decoration: none;
-   color: var(--forest-green)
+   background: var(--forest-green);
  }
 
-
- /* Top Navigation Styling */
- .sticky {
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 1000;
- }
-
- .topNav {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   background-color: var(--forest-green);
- }
-
- .topNavText {
+ .heroBanner>.btn:hover>.link {
    color: var(--white);
  }
-
- .basic-navbar-nav {
-   border-color: #146950 !important;
- }
-
-
- /* Navigation Bar Styling */
- .navbar {
-   background-color: var(--white);
-   padding: 1rem;
-   margin-top: 3rem;
- }
-
- .navCollapse {
-   justify-content: flex-end !important;
-   align-items: center;
- }
-
- .navTitle {
-   color: var(--forest-green);
-   font-family: "league-gothic", sans-serif;
-   font-weight: 400;
-   font-style: italic;
-   font-size: 2rem;
- }
-
- .navText {
-   color: var(--forest-green);
-   font-size: 1.2rem;
-   text-decoration: none;
- }
-
- .navLogo {
-   max-width: 75%;
- }
-
-
- /* Hero Banner Styling */
- .hero-banner {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-     url(https://images.unsplash.com/photo-1644308852777-c129f2182388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   height: 100%;
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   padding: 4rem;
-   text-align: left;
-   border-bottom-left-radius: 10% 0%;
-   border-bottom-right-radius: 100% 10%;
- }
-
- .hero-title {
-   color: var(--white);
-   font-size: 3rem;
-   font-weight: 700;
-   margin-top: 2rem;
- }
-
- .heroBodyContainer {
-   margin: 2rem 0;
- }
-
- .hero-body {
-   color: var(--white);
-   font-size: 2rem;
-   padding-left: 0.5rem;
-   border-left: 4px solid var(--forest-green);
- }
-
 
 
  /* Footer Styling */
@@ -136,7 +46,7 @@
    justify-content: center;
    text-align: center;
    background-color: var(--forest-green);
-   margin-top: 1rem;
+
    padding: 1rem;
  }
 
@@ -147,12 +57,14 @@
  }
 
  .footerText {
+   color: var(--white);
    margin: 0;
  }
 
-
-
-
+ .footerTag:hover {
+   text-decoration: none;
+   color: var(--white);
+ }
 
 
  /* Tablet Media Query */

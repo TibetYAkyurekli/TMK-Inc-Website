@@ -1,70 +1,89 @@
-.homeBodyContainer {
-    margin: 2rem;
-}
+ :root {
+     --forest-green: #146b51;
+     --white: #ffffff;
+     --black: #000000;
+ }
 
-.homeBodyTitle {
-    font-size: 2rem;
-    padding-left: 0.5rem;
-    border-left: 2px solid var(--forest-green);
-}
+ .homeBodyContainer {
+     margin: 2rem;
+ }
 
-.homeBodyBtnContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
+ .homeBodyTitle {
+     font-size: 2rem;
+     padding-left: 0.5rem;
+     border-left: 2px solid var(--forest-green);
+ }
 
-.homeBodyBtn {
-    -webkit-border-radius: 4;
-    -moz-border-radius: 4;
-    border-radius: 4px;
-    background-color: var(--forest-green);
-    font-size: 0.9rem;
-    padding: 5px 20px;
-    text-decoration: none;
-}
+ .homeBodyBtnContainer {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
 
-.homeBodyBtnText {
-    color: var(--white);
-    text-decoration: none;
-}
+ .homeBodyBtn {
+     -webkit-border-radius: 4;
+     -moz-border-radius: 4;
+     border-radius: 4px;
+     border: 1px solid var(--forest-green);
+     background-color: var(--forest-green);
+     font-size: 0.9rem;
+     padding: 5px 20px;
+     text-decoration: none;
+ }
+
+ .homeBodyBtn:hover {
+     background-color: var(--white);
+     /* border: 1px solid var(--forest-green); */
+     text-decoration: none;
+ }
+
+ .homeBodyBtnText:hover {
+     color: var(--forest-green) !important;
+     text-decoration: none;
+ }
 
 
-/* Tablet Media Query */
-@media only screen and (min-width: 48rem) {
-    .homeBodyContainer {
-        height: 30vh;
-    }
+ .homeBodyBtnText {
+     color: var(--white);
+     text-decoration: none;
+ }
 
-    .homeBodyTitle {
-        font-size: 2.5rem;
-        padding-left: 0.75rem;
-    }
 
-    .homeBodyBtn {
-        font-size: 1rem;
-        padding: 8px 25px;
-    }
-}
+ /* Tablet Media Query */
+ @media only screen and (min-width: 48rem) {
+     .homeBodyContainer {
+         height: 30vh;
+     }
 
-/* Desktop Media Query */
-@media only screen and (min-width: 62rem) {
-    .homeBodyContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 2rem 4rem;
+     .homeBodyTitle {
+         font-size: 2.5rem;
+         padding-left: 0.75rem;
+     }
 
-    }
+     .homeBodyBtn {
+         font-size: 1rem;
+         padding: 8px 25px;
+     }
+ }
 
-    .homeBodyTitle {
-        font-size: 3rem;
-        padding-left: 1rem;
+ /* Desktop Media Query */
+ @media only screen and (min-width: 62rem) {
+     .homeBodyContainer {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         margin: 2rem 4rem;
 
-    }
+     }
 
-    .homeBodyBtn {
-        font-size: 1rem;
-        padding: 10px 30px;
-    }
-}
+     .homeBodyTitle {
+         font-size: 3rem;
+         padding-left: 1rem;
+
+     }
+
+     .homeBodyBtn {
+         font-size: 1rem;
+         padding: 10px 30px;
+     }
+ }

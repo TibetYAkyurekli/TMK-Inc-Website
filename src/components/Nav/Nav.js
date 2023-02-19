@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "../App.css";
+import "../../App.css";
+import "./nav.css";
 
 function Header() {
   return (
     <Navbar className="navbar" variant="light" expand="lg">
       <Container>
-        <Navbar.Brand className="navTitle" href="#home">
+        <Navbar.Brand className="navTitle" href="/home">
           TMK Tree and Hedge Inc.
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">

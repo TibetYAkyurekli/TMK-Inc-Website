@@ -1,14 +1,16 @@
 import Nav from "react-bootstrap/Nav";
-import "../App.css";
+import { Link } from "react-router-dom";
+import "../../App.css";
+import "./topNav.css";
 
 function TopNav() {
   return (
     <div className="sticky">
       <Nav className="topNav" activeKey="/home">
         <Nav.Item>
-          <Nav.Link className="btn" href="#contact-us">
+          <Link className="topNavBtn" to="/contact-us">
             Book a Free Quote
-          </Nav.Link>
+          </Link>
         </Nav.Item>
       </Nav>
     </div>

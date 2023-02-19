@@ -1,5 +1,13 @@
+.serviceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .serviceCardContainer {
     display: flex;
-    justify-content: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 3rem;
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TopNav from "../../components/TopNav";
-import Header from "../../components/Nav";
-import HeroBanner from "../../components/Hero";
+import TopNav from "../../components/TopNav/TopNav";
+import Header from "../../components/Nav/Nav";
+import HeroBanner from "../../components/Hero/Hero";
 import Footer from "../../components/Footer";
 import "../Home/home.css";
 
@@ -23,7 +23,7 @@ function Home() {
           knowledge, skill, and equipment to handle any tree related projects.
         </p>
         <div className="homeBodyBtnContainer">
-          <Link className="link homeBodyBtn homeBodyBtnText" to="/services">
+          <Link className="homeBodyBtn homeBodyBtnText" to="/services">
             See All Services Available
           </Link>
         </div>
