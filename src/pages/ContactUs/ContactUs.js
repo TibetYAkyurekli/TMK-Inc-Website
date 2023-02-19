@@ -11,7 +11,7 @@ function ContactUs() {
     <>
       <TopNav />
       <Nav />
-      <Container fluid="sm">
+      <Container className="fullScreen" fluid="sm">
         <h1 className="contactUsTitle">Get in Contact</h1>
         <ContactForm />
       </Container>

@@ -84,7 +84,9 @@ function ContactForm() {
           onChange={handleInputChange}
           required
         >
-          <option value="">Select a Service</option>
+          <option value="" disabled selected>
+            Select a Service
+          </option>
           <option value="Tree Pruning">Tree Pruning</option>
           <option value="Tree Removal">Tree Removal</option>
           <option value="Stump Grinding">Stump Grinding</option>

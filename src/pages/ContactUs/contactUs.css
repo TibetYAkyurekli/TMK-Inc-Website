@@ -1,3 +1,7 @@
+.fullScreen {
+    min-height: -webkit-fill-available;
+}
+
 @media screen and (min-width: 48rem) {
     .contactUsTitle {
         text-align: center;
