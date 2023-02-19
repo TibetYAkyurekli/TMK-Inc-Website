@@ -12,7 +12,7 @@ function Home() {
       <TopNav />
       <Header />
       <HeroBanner />
-      <div className="homeBodyContainer container">
+      <div className="homeBodyContainer">
         <h2 className="homeBodyTitle">Who Are We?</h2>
         <p className="homeBodyText">
           We are a locally owned and operated tree service company providing
