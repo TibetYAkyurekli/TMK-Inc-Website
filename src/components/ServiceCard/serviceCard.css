@@ -34,14 +34,17 @@
      text-decoration: none;
      color: var(--white);
      margin: 0;
-     width: 100%;
+     text-align: center;
+     /* width: 100%; */
  }
 
  .serviceButton:hover {
      background-color: var(--white);
-     color: var(--forest-green);
+     color: var(--forest-green) !important;
      border: 1px solid var(--forest-green);
  }
+
+
 
  @media screen and (min-width: 48rem) {
      .cardContainer {
@@ -60,5 +63,7 @@
      }
 
 
-
+     .serviceButton {
+         width: 25%;
+     }
  }

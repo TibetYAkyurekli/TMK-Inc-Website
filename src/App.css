@@ -40,29 +40,6 @@
  }
 
 
- /* Top Navigation Styling */
- .sticky {
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 1000;
- }
-
- .topNav {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   background-color: var(--forest-green);
- }
-
- .topNavText {
-   color: var(--white);
- }
-
- .basic-navbar-nav {
-   border-color: #146950 !important;
- }
-
  /* Footer Styling */
  .footer {
    display: flex;

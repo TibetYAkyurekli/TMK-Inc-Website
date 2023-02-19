@@ -4,6 +4,30 @@
      --black: #000000;
  }
 
+ /* Top Navigation Styling */
+ .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 1000;
+ }
+
+ .topNav {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     background-color: var(--forest-green);
+     padding: 0.8rem;
+ }
+
+ .topNavText {
+     color: var(--white);
+ }
+
+ .basic-navbar-nav {
+     border-color: #146950 !important;
+ }
+
  .topNavBtn {
      -webkit-border-radius: 4;
      -moz-border-radius: 4;

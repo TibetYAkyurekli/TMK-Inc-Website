@@ -44,7 +44,7 @@ function ContactForm() {
     <div className="form">
       <h1 className="contactUsTitle">Get in Contact</h1>
       <Form
-        action="https://formspree.io/f/mlekjogq"
+        action="https://submit-form.com/CgCpP2YC"
         className="formStyling"
         method="POST"
       >
