@@ -12,6 +12,7 @@ function ContactForm() {
     name: "",
     phone: "",
     email: "",
+    address: "",
     message: "",
     services: "",
   });
@@ -69,11 +70,20 @@ function ContactForm() {
           />
         </Form.Group>
         <Form.Group controlId="formEmail">
-          <Form.Label>Your email:</Form.Label>
+          <Form.Label>Your Email:</Form.Label>
           <Form.Control
             type="email"
             name="email"
             value={formData.email}
+            onChange={handleChange}
+          />
+        </Form.Group>
+        <Form.Group controlId="formAddress">
+          <Form.Label>Your Address:</Form.Label>
+          <Form.Control
+            type="text"
+            name="text"
+            value={formData.address}
             onChange={handleChange}
           />
         </Form.Group>
