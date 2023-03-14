@@ -14,7 +14,7 @@
     -webkit-border-radius: 4;
     -moz-border-radius: 4;
     border-radius: 4px;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0;
 
 }
@@ -67,11 +67,15 @@
     max-width: 100% !important;
 }
 
+.phoneText {
+    text-align: center;
+}
+
 
 @media screen and (min-width: 48rem) {
     .form {
         width: 50vw;
-
+        padding: 2rem;
     }
 
     .formBtn {
@@ -80,5 +84,11 @@
 
     .formBtnDisabled {
         max-width: 10rem !important;
+    }
+
+    .phoneText {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: start;
     }
 }

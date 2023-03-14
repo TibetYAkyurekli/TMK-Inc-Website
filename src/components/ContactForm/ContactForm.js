@@ -130,6 +130,9 @@ function ContactForm() {
           Send
         </Button>
       </Form>
+      <p className="phoneText">
+        Or Call <a href="tel:613-229-4024">613-229-4024</a>
+      </p>
     </div>
   );
 }
