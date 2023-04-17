@@ -55,8 +55,8 @@ function ContactForm() {
             type="text"
             name="name"
             value={formData.name}
-            onChange={handleChange}
             required
+            onChange={handleChange}
           />
         </Form.Group>
         <Form.Group controlId="formPhone">
@@ -65,8 +65,8 @@ function ContactForm() {
             type="tel"
             name="phone"
             value={formData.phone}
-            onChange={handleChange}
             required
+            onChange={handleChange}
           />
         </Form.Group>
         <Form.Group controlId="formEmail">
@@ -75,6 +75,7 @@ function ContactForm() {
             type="email"
             name="email"
             value={formData.email}
+            required
             onChange={handleChange}
           />
         </Form.Group>
@@ -82,8 +83,9 @@ function ContactForm() {
           <Form.Label>Your Address:</Form.Label>
           <Form.Control
             type="text"
-            name="text"
+            name="address"
             value={formData.address}
+            required
             onChange={handleChange}
           />
         </Form.Group>
